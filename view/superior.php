@@ -1,11 +1,7 @@
 <?php 
-
+$dataCompleta = date("d/m/Y");
 $url = basename($_SERVER['PHP_SELF']);
 
-if($url == 'cadastroVendas.php' || $url =='acompanhamentoProposta.php' || $url =='cadastroCliente.php'){
-    $url = 'cadastro.php';
-    
-}
 ?>
 
 <!DOCTYPE html>
@@ -101,6 +97,9 @@ if($url == 'cadastroVendas.php' || $url =='acompanhamentoProposta.php' || $url =
                                     <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                             <li>
                                             <a href="cadastroPonto.php">Cadastro Ponto</a>
+                                        </li>
+                                        <li>
+                                            <a href="cadastroJornada.php">Cadastro Jornada</a>
                                         </li>
                                         
                                     </ul>
@@ -224,6 +223,9 @@ if($url == 'cadastroVendas.php' || $url =='acompanhamentoProposta.php' || $url =
                                     <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                             <li>
                                             <a href="cadastroPonto.php">Cadastro Ponto</a>
+                                        </li>
+                                        <li>
+                                            <a href="cadastroJornada.php">Cadastro Jornada</a>
                                         </li>
                                         
                                     </ul>

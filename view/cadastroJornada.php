@@ -1,4 +1,4 @@
-	<?php 
+<?php 
 require_once('superior.php');
 ?>
 
@@ -9,32 +9,17 @@ require_once('superior.php');
 				<div class="card">
 					<div class="card-header">
 						<strong>Cadastro</strong>
-						<small> Ponto Funcionário</small>
+						<small> Cliente</small>
 					</div>
 					<!-- CORPO DO CARD DE TELA DE CADASTRO DO CLIENTE-->
 					<div class="card-body card-block">
 						<form action="">
 							<div class="row form-group">
-								<div class="col-12 col-md-1">
-									<label for="text-input" class=" form-control-label" name="id" id="idPessoa">ID</label>
-								</div>
 								<div class="col-12 col-md-2">
-									<input type="text" id="text-input" name="text-input" placeholder="0001" class="form-control">
-								</div>
-								<div class="col-12 col-md-1">
 									<label for="text-input" class=" form-control-label">Nome</label>
 								</div>
-								<div class="col-12 col-md-4">
-									<p class="form-control-static" id="nomeFunc">Carla Fabiana Nascimento Borges da Silva</p>
-								</div>
-								<div class="col-12 col-md-1">
-									<label for="text-input" class=" form-control-label">Jornada</label>
-								</div>
-								<div class="col-12 col-md-3">
-									<select name="" id="" class="form-control">
-										<option value="Entrada">Selecione sua Jornada</option>
-										
-									</select>
+								<div class="col-12 col-md-10">
+									<input type="text" id="text-input" name="text-input" placeholder="Nome" class="form-control">
 								</div>
 							</div>
 							<div class="card-footer text-center">

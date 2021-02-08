@@ -19,7 +19,7 @@ require_once('superior.php');
 									<label class="form-control-label">Data</label>
 								</div>
 								<div class="col col-md-4">
-									<p class="form-control-static" id="data" name="data"></p>
+									<p class="form-control-static" id="data" name="data"><?php echo $dataCompleta;?></p>
 								</div>
 								<div class="col col-md-2">
 									<label class="form-control-label">Hora</label>
