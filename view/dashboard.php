@@ -7,151 +7,108 @@ require_once('superior.php');
 			<div class="row">
 				<div class="col-md-12">
 					<div class="overview-wrap">
-						<h2 class="title-1">Produção</h2>
+						<h2 class="title-1">Ponto</h2>
 					</div>
 				</div>
 			</div>
-			<div class="row m-t-25">
-				<div class="col-sm-6 col-lg-3">
-					<div class="overview-item overview-item--c1">
-						<div class="overview__inner">
-							<div class="overview-box clearfix">
-								<div class="icon">
-									<i class="zmdi zmdi-spinner"></i>
-								</div>
-								<div class="text">
-									<span>Andamento</span>
-									<h2>875.014,00</h2>
-									
-								</div>
-							</div>
-							<!-- <div class="overview-chart">
-								<canvas id="widgetChart1"></canvas>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<div class="overview-item overview-item--c2">
-						<div class="overview__inner">
-							<div class="overview-box clearfix">
-								<div class="icon">
-									<i class="zmdi zmdi-check-all"></i>
-								</div>
-								<div class="text">
-									<span>Averbados</span>
-									<h2>483.045,87</h2>
-								</div>
-							</div>
-							<!-- <div class="overview-chart">
-								<canvas id="widgetChart2"></canvas>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<div class="overview-item overview-item--c3">
-						<div class="overview__inner">
-							<div class="overview-box clearfix">
-								<div class="icon">
-									<i class="zmdi zmdi-block-alt"></i>
-								</div>
-								<div class="text">
-									<span>Cancelados</span>
-									<h2>125.879,45</h2>
-								</div>
-							</div>
-							<!-- <div class="overview-chart">
-								<canvas id="widgetChart3"></canvas>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<div class="overview-item overview-item--c4">
-						<div class="overview__inner">
-							<div class="overview-box clearfix">
-								<div class="icon">
-									<i class="zmdi zmdi-money"></i>
-								</div>
-								<div class="text">
-									<span>Pagos</span>
-									<h2>458.793,33</h2>
-								</div>
-							</div>
-							<!-- <div class="overview-chart">
-								<canvas id="widgetChart4"></canvas>
-							</div> -->
-						</div>
-					</div>
-				</div>
-			</div>
+			
 			<div class="row">
-				<div class="col-lg-6">
-					<div class="au-card recent-report">
-						<div class="au-card-inner">
-							<h3 class="title-2">recent reports</h3>
-							<div class="chart-info">
-								<div class="chart-info__left">
-									<div class="chart-note">
-										<span class="dot dot--blue"></span>
-										<span>products</span>
-									</div>
-									<div class="chart-note mr-0">
-										<span class="dot dot--green"></span>
-										<span>services</span>
-									</div>
-								</div>
-								<div class="chart-info__right">
-									<div class="chart-statis">
-										<span class="index incre">
-											<i class="zmdi zmdi-long-arrow-up"></i>25%</span>
-											<span class="label">products</span>
-										</div>
-										<div class="chart-statis mr-0">
-											<span class="index decre">
-												<i class="zmdi zmdi-long-arrow-down"></i>10%</span>
-												<span class="label">services</span>
-											</div>
-										</div>
-									</div>
-									<div class="recent-report__chart">
-										<canvas id="recent-rep-chart"></canvas>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="au-card chart-percent-card">
-								<div class="au-card-inner">
-									<h3 class="title-2 tm-b-5">char by %</h3>
-									<div class="row no-gutters">
-										<div class="col-xl-6">
-											<div class="chart-note-wrap">
-												<div class="chart-note mr-0 d-block">
-													<span class="dot dot--blue"></span>
-													<span>products</span>
-												</div>
-												<div class="chart-note mr-0 d-block">
-													<span class="dot dot--red"></span>
-													<span>services</span>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-6">
-											<div class="percent-chart">
-												<canvas id="percent-chart"></canvas>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+				<div class="col-lg-12">
+					<div class="table-responsive table--no-card m-b-30">
+						<table class="table table-borderless table-striped table-earning">
+							<thead>
+								<tr>
+									<th>Data</th>
+									<th>Funcionario ID</th>
+									<th>Nome</th>
+									<th class="text-right">Entrada</th>
+									<th class="text-right">Saida para Almoço</th>
+									<th class="text-right">Volta do Almoço</th>
+									<th class="text-right">Saida</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2018-09-29 05:57</td>
+									<td>100398</td>
+									<td>iPhone X 64Gb Grey</td>
+									<td class="text-right">$999.00</td>
+									<td class="text-right">1</td>
+									<td class="text-right">1</td>
+									<td class="text-right">$999.00</td>
+								</tr>
+								<tr>
+									<td>2018-09-28 01:22</td>
+									<td>100397</td>
+									<td>Samsung S8 Black</td>
+									<td class="text-right">$756.00</td>
+									<td class="text-right">1</td>
+									<td class="text-right">1</td>
+									<td class="text-right">$756.00</td>
+								</tr>
+								<tr>
+									<td>2018-09-27 02:12</td>
+									<td>100396</td>
+									<td>Game Console Controller</td>
+									<td class="text-right">$22.00</td>
+									<td class="text-right">2</td>
+									<td class="text-right">2</td>
+									<td class="text-right">$44.00</td>
+								</tr>
+								<tr>
+									<td>2018-09-26 23:06</td>
+									<td>100395</td>
+									<td>iPhone X 256Gb Black</td>
+									<td class="text-right">$1199.00</td>
+									<td class="text-right">1</td>
+									<td class="text-right">1</td>
+									<td class="text-right">$1199.00</td>
+								</tr>
+								<tr>
+									<td>2018-09-25 19:03</td>
+									<td>100393</td>
+									<td>USB 3.0 Cable</td>
+									<td class="text-right">$10.00</td>
+									<td class="text-right">3</td>
+									<td class="text-right">3</td>
+									<td class="text-right">$30.00</td>
+								</tr>
+								<tr>
+									<td>2018-09-29 05:57</td>
+									<td>100392</td>
+									<td>Smartwatch 4.0 LTE Wifi</td>
+									<td class="text-right">$199.00</td>
+									<td class="text-right">6</td>
+									<td class="text-right">6</td>
+									<td class="text-right">$1494.00</td>
+								</tr>
+								<tr>
+									<td>2018-09-24 19:10</td>
+									<td>100391</td>
+									<td>Camera C430W 4k</td>
+									<td class="text-right">$699.00</td>
+									<td class="text-right">1</td>
+									<td class="text-right">1</td>
+									<td class="text-right">$699.00</td>
+								</tr>
+								<tr>
+									<td>2018-09-22 00:43</td>
+									<td>100393</td>
+									<td>USB 3.0 Cable</td>
+									<td class="text-right">$10.00</td>
+									<td class="text-right">3</td>
+									<td class="text-right">3</td>
+									<td class="text-right">$30.00</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
 
-		<?php
-		require_once("inferior.php");
-		?>
+<?php
+require_once("inferior.php");
+?>
