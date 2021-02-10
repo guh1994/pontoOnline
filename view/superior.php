@@ -41,6 +41,7 @@ $url = basename($_SERVER['PHP_SELF']);
     <!-- Main CSS-->
     <link href="../css/theme.css" rel="stylesheet" media="all">
     <script src="./../js/mostraHora.js"></script>
+    <script src="./../js/pontoMesAtual.js"></script>
 
 </head>
 
@@ -321,7 +322,8 @@ $url = basename($_SERVER['PHP_SELF']);
                                 </button>
                             </form>
                             <div class="header-button">
-                                <div class="noti-wrap">
+
+                                <!-- <div class="noti-wrap">
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-comment-more"></i>
                                         <span class="quantity">1</span>
@@ -432,7 +434,7 @@ $url = basename($_SERVER['PHP_SELF']);
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">

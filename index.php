@@ -64,7 +64,7 @@
                                         <a href="#">Esqueceu a senha ?</a>
                                     </label>
                                 </div>
-                               <button class="au-btn au-btn--block au-btn--green m-b-20" type="button"><a href="./view/dashboard.php"> Logar</a></button>
+                               <button class="au-btn au-btn--block au-btn--green m-b-20" type="button" onclick="window.location.href = './view/dashboard.php'"> Logar</button>
                                 
                             </form>
                             
