@@ -30,10 +30,10 @@ require_once('superior.php');
 								<tr>
 									<td>01/02/2021</td>
 									<td>100398</td>
-									<td class="text-right">$999.00</td>
-									<td class="text-right">1</td>
-									<td class="text-right">1</td>
-									<td class="text-right">$999.00</td>
+									<td class="text-center">09:00</td>
+									<td class="text-center">12:00</td>
+									<td class="text-center">13:01</td>
+									<td class="text-center">19:55</td>
 								</tr>
 								
 							</tbody>
